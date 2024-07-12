@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.shopping-cart {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  text-align: left;
+  background-color: #98aabe;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart li {
+  margin: 8px 0;
+}
+
+.shopping-cart button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #044182;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.shopping-cart button:hover {
+  background-color: #4390e2;
+}
+
+.shopping-cart button:focus {
+  outline: none;
+}
+
+.shopping-cart p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-selector {
+  margin-bottom: 20px;
+}
+
+.item-selector select {
+  padding: 8px;
+  margin-right: 10px;
+}
